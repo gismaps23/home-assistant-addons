@@ -7,7 +7,7 @@
   "startup": "application",
   "boot": "auto",
   "host_network": true,
-  "privileged": ["tty", "usb"],
+  "privileged": true,
   "options": {},
   "schema": {}
 }
