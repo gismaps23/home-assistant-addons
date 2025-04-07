@@ -2,11 +2,11 @@ import serial
 import time
 import paho.mqtt.client as mqtt
 
-mqtt_broker = "192.168.0.19"
+mqtt_broker = "1.1.1.1"
 mqtt_port = 1883
 mqtt_topic = "alarma/estado"
-mqtt_user = "hunter"
-mqtt_pass = "1234"
+mqtt_user = "test"
+mqtt_pass = "111"
 
 client = mqtt.Client()
 client.username_pw_set(mqtt_user, mqtt_pass)
